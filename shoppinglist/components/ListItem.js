@@ -27,7 +27,7 @@ const ListItem = ({
       <View style={styles.listItemView}>
         {isEditing && editItemDetail.id === item.id ? (
           <TextInput
-            placeholder="Edit Item..."
+            placeholder="Edit Item"
             style={styles.editItemInput}
             onChangeText={handleEditChange}
           />
@@ -45,7 +45,7 @@ const ListItem = ({
             <Icon
               name="save"
               size={20}
-              color="green"
+              color="black"
               onPress={() => saveEditItem(item.id, item.text)}
             />
           ) : (
@@ -53,7 +53,7 @@ const ListItem = ({
               <Icon
                 name="pencil"
                 size={20}
-                color="blue"
+                color="black"
                 onPress={() => editItem(item.id, item.text)}
               />
             )

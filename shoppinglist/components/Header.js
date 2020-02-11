@@ -10,7 +10,7 @@ const Header = ({title}) => {
 };
 
 Header.defaultProps = {
-  title: 'Shopping List',
+  title: 'Material Wishlist',
 };
 
 const styles = StyleSheet.create({
