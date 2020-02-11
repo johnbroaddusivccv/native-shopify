@@ -10,7 +10,7 @@ const Header = ({title}) => {
 };
 
 Header.defaultProps = {
-  title: 'Native Shopify',
+  title: 'Shopping List',
 };
 
 const styles = StyleSheet.create({
@@ -20,9 +20,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'darkslateblue',
   },
   text: {
-    color: '#fff',
+    color: 'white',
     fontSize: 23,
     textAlign: 'center',
   },
 });
+
 export default Header;
